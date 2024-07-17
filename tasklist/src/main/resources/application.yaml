@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sapsanb1
+    username: postgres
+    password: 29082021
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      schema: tasklist
+  sql:
+    init:
+      mode: always
+      continue-on-error: false
+#      data-locations: classpath:demo_data.sql
+
+security:
+  jwt:
+    secret: ZmFkc2puZmFrZHNqbmdrYW5mZCdnbmpmZGtzZ3NnZmRhZ3NkZnNnZmRnZEdBU0ZBU0Q=
+    access: 36000000
+    refresh: 2592000000
