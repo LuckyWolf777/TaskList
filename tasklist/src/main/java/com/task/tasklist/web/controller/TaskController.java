@@ -34,12 +34,4 @@ public class TaskController {
         Task updateTusk = taskService.update(task);
         return taskMapper.toDto(updateTusk);
     }
-
-//    @PostMapping("/{id}/tasks")
-//    public TaskDto createTask(@PathVariable Long id, @Validated(OnCreate.class) @RequestBody TaskDto dto) {
-//        Task task = taskMapper.toEntity(dto);
-//        Task createTask = taskService.create(task, id);
-//        return taskMapper.toDto(createTask);
-//    }
-
 }
