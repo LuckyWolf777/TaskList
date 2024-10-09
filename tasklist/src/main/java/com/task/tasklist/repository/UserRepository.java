@@ -2,6 +2,7 @@ package com.task.tasklist.repository;
 
 import com.task.tasklist.model.user.Role;
 import com.task.tasklist.model.user.User;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
@@ -17,9 +18,9 @@ public interface UserRepository {
 
     void create(User user);
 
-    void insertUserRole(Long id, Role role);
+    void insertUserRole(@Param("userId") Long id,@Param("role") Role role);
 
-    boolean isTaskOwner(Long userId, Long taskId);
+    boolean isTaskOwner(@Param("userId") Long userId,@Param("taskId") Long taskId);
 
     void delete(Long id);
 }

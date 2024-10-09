@@ -1,7 +1,7 @@
 -- insert into users(name, username, password)
 -- values
---     ('Egor', 'happysteel@gmail.com','$2a$10$9dssVeuX.PMfiKuqlCaIsOoHCfseYm5fRYhEUTmRpMhVN9tSBM/eW'),
---     ('Alina', 'happyalina@gmail.com','$2a$10$XcB7fXbRzXbYiIHpJEpbGuvaeQ4Gw1En7l.jb0kR4LF./y0bT62Fe');
+--     ('Egor', 'happysteel@gmail.com','$2a$12$XggVZCVlgjWxqMKBj7JwgOCvNQ/oEaBisn8.mJopc3fG8lcW7QDoK'),
+--     ('Alina', 'happyalina@gmail.com','$2a$12$8KZPWWI6VW.3hlI1BfPN6OiBS451RNiNHuB9ze3uT97OtmR68t8rq');
 --
 --
 -- insert into tasks (title, description, status, expiration_date)

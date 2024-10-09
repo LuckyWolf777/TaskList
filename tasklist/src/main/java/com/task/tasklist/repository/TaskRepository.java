@@ -14,9 +14,9 @@ public interface TaskRepository {
 
     void assignToUserById(Long taskId, Long userId);
 
-    void update(Task Task);
+    void update(Task task);
 
-    void creat(Task Task);
+    void create(Task task);
 
     void delete(Long id);
 }
