@@ -4,7 +4,6 @@ import com.task.tasklist.model.exception.ResourceNotFoundException;
 import com.task.tasklist.model.task.Status;
 import com.task.tasklist.model.task.Task;
 import com.task.tasklist.repository.TaskRepository;
-import com.task.tasklist.repository.UserRepository;
 import com.task.tasklist.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

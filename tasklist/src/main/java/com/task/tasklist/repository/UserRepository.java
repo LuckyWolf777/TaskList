@@ -3,7 +3,6 @@ package com.task.tasklist.repository;
 import com.task.tasklist.model.user.Role;
 import com.task.tasklist.model.user.User;
 import org.springframework.data.repository.query.Param;
-import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 

@@ -1,16 +1,11 @@
 package com.task.tasklist.web.dto.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.task.tasklist.model.task.Task;
-import com.task.tasklist.model.user.Role;
 import com.task.tasklist.web.dto.validation.OnCreate;
 import com.task.tasklist.web.dto.validation.OnUpdate;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
-
-import java.util.List;
-import java.util.Set;
 
 @Data
 public class UserDto {

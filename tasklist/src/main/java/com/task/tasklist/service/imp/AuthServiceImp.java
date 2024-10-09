@@ -6,7 +6,6 @@ import com.task.tasklist.service.UserService;
 import com.task.tasklist.web.dto.auth.JwtRequest;
 import com.task.tasklist.web.dto.auth.JwtResponse;
 import com.task.tasklist.web.security.JwtTokenProvider;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
